@@ -4,6 +4,10 @@ public class HeapDemo2 {
 
     /**
      * -Xms20m -Xmx20m
+     * -X 参数(设置堆内存 新生区+老年区)
+     * ms memory start
+     * mx memory max
+     * -XX:+PrintGCDetails
      * @param args
      */
     public static void main(String[] args) {
