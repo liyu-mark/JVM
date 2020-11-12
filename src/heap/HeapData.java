@@ -8,6 +8,10 @@ public class HeapData {
      * 默认Xms为本地内存的 1/64  Xmx为本地内存的 1/4
      * 查看内存使用情况 jstat -gc pid
      * 默认配置 Xms=Xmx=600m 增大扩容时需要消耗性能资源  Xms=Xmx=伊甸园区+幸存者0/幸存者1+老年区  因为垃圾回收算法默认只有一个幸存者区使用
+     *
+     *
+     *
+     * Xx:MaxTenuringThreshold  最大阙值
      */
     public static void main(String[] args) {
         //获取运行时数据区
